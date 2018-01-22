@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Final Year Project</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/cerulean/bootstrap.min.css">
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+    <h2 class="text-center">Gas Concentration Variation</h2>
+    <!--<p>The .table-striped class adds zebra-stripes to a table:</p>-->
+
+
+    <div class="row">
+        <div class="col-md-6"><h4 class="text-center bg-warning">Oxygen</h4></div>
+        <div class="col-md-6"><h4 class="text-center bg-warning">Carbon Dioxide</h4></div>
+        <!--<div class="col-md-6"><h4 class="text-center">Carbon Dioxide</h4></div>-->
+    </div>
+
+    <div class="row">
+        <div class="col-md-6">
+            <iframe width="555" height="260" style="border: 1px solid #cccccc;"
+                    src="https://thingspeak.com/channels/408157/charts/1?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15"></iframe>
+        </div>
+        <div class="col-md-6">
+            <iframe width="555" height="260" style="border: 1px solid #cccccc;"
+                    src="https://thingspeak.com/channels/408157/charts/2?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15"></iframe>
+        </div>
+    </div>
+
+    <div class="row">
+        <br>
+        <div class="col-md-6"><h4 class="text-center bg-warning">Carbon Monoxide</h4></div>
+        <div class="col-md-6"><h4 class="text-center bg-warning">Volatile Organic Compound</h4></div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-6">
+            <iframe width="555" height="260" style="border: 1px solid #cccccc;"
+                    src="https://thingspeak.com/channels/408157/charts/3?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15"></iframe>
+        </div>
+        <div class="col-md-6">
+            <iframe width="555" height="260" style="border: 1px solid #cccccc;"
+                    src="https://thingspeak.com/channels/408157/charts/4?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15"></iframe>
+        </div>
+    </div>
+
+    <div class="row">
+        <br>
+        <div class="col-md-6"><h4 class="text-center bg-warning">Temperature</h4></div>
+        <div class="col-md-6"><h4 class="text-center bg-warning">Humidity</h4></div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-6">
+            <iframe width="555" height="260" style="border: 1px solid #cccccc;"
+                    src="https://thingspeak.com/channels/408157/charts/5?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15"></iframe>
+        </div>
+        <div class="col-md-6">
+            <iframe width="555" height="260" style="border: 1px solid #cccccc;"
+                    src="https://thingspeak.com/channels/408157/charts/6?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15"></iframe>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
